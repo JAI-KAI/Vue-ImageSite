@@ -6,7 +6,6 @@
 </template>
 
 <script setup>
-import { defineEmits } from 'vue';
 const emit = defineEmits(['search']);
 function search() {
     emit('search')
