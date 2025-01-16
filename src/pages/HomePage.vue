@@ -5,8 +5,9 @@
 
 <script setup>
 import { ref } from 'vue';
+import Navbar from '../components/Navbar.vue';
 import Search from '../components/Search.vue';
-import Pictures from '../components/Picture.vue';
+import Pictures from '../components/Pictures.vue';
 import axios from 'axios';
 
 const photos = ref([]);
