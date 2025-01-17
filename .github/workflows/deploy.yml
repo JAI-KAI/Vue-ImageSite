@@ -18,7 +18,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 22
 
       # 3. 安裝依賴
       - name: Install dependencies
@@ -27,7 +27,7 @@ jobs:
       # 4. 構建專案
       - name: Build project
         env:
-          VITE_API_KEY: ${{ secrets.VITE_API_KEY }} # 從 GitHub Secrets 獲取 API 金鑰
+          VITE_API_KEY: ${{ secrets.GVITE_API_KEY }} # 從 GitHub Secrets 獲取 API 金鑰
         run: npm run build
 
       # 5. 部署到 GitHub Pages
