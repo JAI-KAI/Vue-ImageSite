@@ -30,6 +30,10 @@ jobs:
           VITE_API_KEY: ${{ secrets.GVITE_API_KEY }} # 從 GitHub Secrets 獲取 API 金鑰
         run: npm run build
 
+      - name: Check environment variable
+        run: echo ${{ secrets.VITE_API_KEY }}
+
+
       # 5. 部署到 GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
