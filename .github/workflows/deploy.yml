@@ -27,7 +27,7 @@ jobs:
       # 4. 構建專案
       - name: Build project
         env:
-          VITE_API_KEY: ${{ secrets.GVITE_API_KEY }} # 從 GitHub Secrets 獲取 API 金鑰
+          VITE_API_KEY: ${{ secrets.VITE_API_KEY }} # 從 GitHub Secrets 獲取 API 金鑰
         run: npm run build
 
       - name: Check environment variable
