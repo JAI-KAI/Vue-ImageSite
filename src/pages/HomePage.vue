@@ -9,7 +9,6 @@ import Search from '../components/Search.vue';
 import Pictures from '../components/Pictures.vue';
 import axios from 'axios';
 const API_KEY = import.meta.env.VITE_API_KEY;
-console.log(API_KEY);
 const photos = ref([]);
 const userInput = ref('');
 const initialURL = "https://api.pexels.com/v1/curated?page=1&per_page=15";
