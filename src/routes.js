@@ -2,7 +2,7 @@ import About from "./pages/About.vue";
 import ErrorPage from "./pages/ErrorPage.vue";
 import HomePage from "./pages/HomePage.vue";
 
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 
 const routes = [
     {
@@ -20,7 +20,7 @@ const routes = [
 ]
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHashHistory(),
     routes,
 })
 
