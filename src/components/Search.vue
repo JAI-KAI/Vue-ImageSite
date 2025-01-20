@@ -5,11 +5,11 @@
         v-model="userInput"
         @keyup.enter="search"  
         placeholder="輸入關鍵詞"
-        class="w-full sm:w-96 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" 
+        class="w-full sm:w-96 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500" 
       />
       <button 
         @click="search"
-        class="px-4 py-2 bg-blue-500 text-white font-medium rounded-lg hover:bg-blue-600 transition duration-200"
+        class="px-4 py-2 bg-cyan-500 text-white font-medium rounded-lg hover:bg-cyan-600 transition duration-200"
       >
         Search
       </button>
