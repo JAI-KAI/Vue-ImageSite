@@ -1,6 +1,11 @@
 <template>
-    <Search @search="search(searchURL)" v-model="userInput" />
-    <Pictures :photos="photos" />
+    <div class="bg-gray-100 min-h-screen px-36 sm:px-24 lg:px-36">
+        <!-- 搜索區域 -->
+        <Search @search="search(searchURL)" v-model="userInput" />
+
+        <!-- 圖片顯示區域 -->
+        <Pictures :photos="photos"/>
+    </div>
 </template>
 
 <script setup>
