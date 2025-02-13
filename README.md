@@ -4,6 +4,8 @@
 - Vite  
 - Vue Router  
 - Composition API  
-- Pexels API  
-- Tailwind CSS  
+- Pexels API
+- Axios  
+- Tailwind CSS
+- GitHub Actions  
 ### GitHub Pages: https://jai-kai.github.io/Vue-ImageSite/  
