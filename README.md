@@ -7,5 +7,5 @@
 - Pexels API
 - Axios  
 - Tailwind CSS
-- GitHub Actions  
+- GitHub Actions (workflow)
 ### GitHub Pages: https://jai-kai.github.io/Vue-ImageSite/  
