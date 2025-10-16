@@ -1,5 +1,7 @@
 ## 圖片網站
-### 使用技術：  
+一個使用 Pexels API 建立的圖片搜尋網站，提供高品質圖片瀏覽功能。
+
+## 使用技術：  
 - Vue3  
 - Vite  
 - Vue Router  
@@ -7,5 +9,5 @@
 - Pexels API
 - Axios  
 - Tailwind CSS
-- GitHub Actions (workflow)
-### GitHub Pages: https://jai-kai.github.io/Vue-ImageSite/  
+- **Vercel 部署**
+## GitHub Pages: https://jai-kai.github.io/Vue-ImageSite/  
